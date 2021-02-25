@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>processing-library-template</name>
+	<name>MotionDetection-GestureLibrary-Processing</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -14,4 +14,11 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>lib/video.jar</name>
+			<type>1</type>
+			<location>C:/Users/surya/Documents/Processing/libraries/video/library/video.jar</location>
+		</link>
+	</linkedResources>
 </projectDescription>
