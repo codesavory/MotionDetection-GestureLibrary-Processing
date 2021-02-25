@@ -36,7 +36,7 @@ void draw() {
   popMatrix();
   
   //update the parameters based on input frame
-  motionDetect.getValues(video);
+  motionDetect.updateValues(video);
   //if (mousePressed == true) 
   {
     line(motionDetect.pgestX, motionDetect.pgestY, 

@@ -29,11 +29,11 @@ void draw() {
   popMatrix();
   
   //update the parameters based on input frame
-  motionDetect.getValues(video);
+  motionDetect.updateValues(video);
   
   //available variables
-  float x = motionDetect.pgestX; //previous gesture point x
-  float y = motionDetect.pgestY; //previous gesture point y
-  float px = motionDetect.gestX; //current gesture point x
-  float py = motionDetect.gestY; //current gesture point y
+  float px = motionDetect.pgestX; //previous gesture point x
+  float py = motionDetect.pgestY; //previous gesture point y
+  float x = motionDetect.gestX; //current gesture point x
+  float y = motionDetect.gestY; //current gesture point y
 }

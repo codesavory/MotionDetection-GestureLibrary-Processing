@@ -52,7 +52,7 @@ public class BkgdSubtraction {
 		  return d;
 	}
 	
-	public void getValues(Capture video)
+	public void updateValues(Capture video)
 	{
 		  video.loadPixels();
 		  prev.loadPixels();
